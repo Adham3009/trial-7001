@@ -1,0 +1,160 @@
+/*--------------------------------------
+Start [body]
+----------------------------------------*/
+
+body{
+    height: 200vh;
+    margin: 0;
+}
+
+/*--------------------------------------
+End [body]
+----------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------
+Start [body .header]
+----------------------------------------*/
+
+body header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 0px 5px;
+}
+
+body header .Adham{
+    width: 100%
+}
+
+body header .Adham pre{
+position: relative;
+left: 10px;
+color: beige;
+font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+body header .links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+body header .links img{
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+body header img:hover{
+    scale: 1.1;
+    box-shadow: 5px 2px 20px;
+}
+
+/*--------------------------------------
+End [body .header]
+----------------------------------------*/
+
+
+
+
+
+
+
+/*--------------------------------------
+Start [body .sec1]
+----------------------------------------*/
+
+body .General{
+    background-image: url(sparkle.gif);
+    background-color: #000035;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .General .Sec1
+{   
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+body .General .sec1 .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+    height: 100%;
+    width: 100%;
+}
+body .General .story1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 35px;
+}
+
+body .General .story1 span
+{
+    color: rgb(220, 211, 196);
+    font-size: 15px;
+}
+
+body .General .story2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+}
+
+body .General .story2 span
+{
+    color: rgb(220, 211, 196);
+    font-size: 15px;
+}
+
+body .General .sec1 .about .Welcome{
+    font-size: 35px;
+    color: beige;
+}
+
+body .General .adham_img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-user-drag: none;
+}
+
+body .General .adham_img img{
+    position: relative;
+    top: px;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-user-drag: none;
+}
+
